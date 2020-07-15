@@ -20,3 +20,7 @@ Therefore, to further investigate the performance of these text vectorizers, we 
 **Insights**
 After the comparison of the various models above, we find that the accuracy of Naive Bayes is the highest among the five models. Even after we complete the cross validation, Naive Bayes algorithm still performs best. Then we start to think about why Naive Bayes is the most suitable model for our case.
 Multinomial Naive Bayes often involves the concept of frequency or discrete variables, which means the feature matrix is often sparse, while the famous TF-IDF vectorization and the common count-word vectorization generate exactly discrete sparse matrices. Moreover, this data set is relatively simple. Even if the correlation between words is ignored, as long as some words such as ’excellent’, ’good’, and ’nasty’ appear, the text can be classified correctly.
+
+# Reference
+* https://github.com/abisee/sailors2017
+* https://www.kaggle.com/omkarsabnis/sentiment-analysis-on-the-yelp-reviews-dataset
