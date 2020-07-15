@@ -4,9 +4,8 @@ This is a course project for ERG3020 by three students from CUHK(SZ). The datase
 ## Project Organization
 * Data preprocessing
 * Algorithms Implement
-
-Multinominal Naive Bayes\\
-Support Vector Machine\\
-K-Nearest Neighbors\\
-Random Forest\\
-Multilayer Perceptron\\
+1. Multinominal Naive Bayes
+2. Support Vector Machine
+3. K-Nearest Neighbors
+4. Random Forest
+5. Multilayer Perceptron
